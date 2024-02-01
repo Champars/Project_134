@@ -1,0 +1,36 @@
+body {
+    background: radial-gradient(azure, aquamarine, aqua, lightseagreen);
+    text-align: center;
+}
+
+#foot {
+    position: fixed;
+    bottom: 0;
+    line-height: 3;
+    background-color: red;
+    color: silver;
+    border: 7px orange inset;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+
+.a {
+    width: 100%;
+    background-color: red;
+    border: orange inset 7px;
+    color: silver;
+}
+
+canvas {
+    border: 7px orange inset;
+    margin-top: 75px;
+    border-radius: 15px;
+    animation-name: a;
+    animation-duration: 3500ms;
+    animation-iteration-count: infinite;
+}
+
+h3 {
+    color: silver;
+}
